@@ -16,6 +16,6 @@
 * Geocoding with QGIS or terminal
 
 ###Tools needed
-* Python
+* [Python](https://www.python.org/), Please download version 2.7. If you have issues, have no fear, we will help you the day of.
 * Text Editor
 * QGIS
