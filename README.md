@@ -17,5 +17,6 @@
 
 ###Tools needed
 * [Python](https://www.python.org/), Please download version 2.7. If you have issues, have no fear, we will help you the day of.
-* Text Editor
+* Install Git! http://git-scm.com/download
+* Text Editor. Sublime is awesome & freeeee! http://www.sublimetext.com/
 * QGIS
