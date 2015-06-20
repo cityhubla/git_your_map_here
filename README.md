@@ -20,4 +20,4 @@
 * [Python](https://www.python.org/), Please download version 2.7. If you have issues, have no fear, we will help you the day of.
 * Install Git! http://git-scm.com/download
 * Text Editor. Sublime is awesome & freeeee! http://www.sublimetext.com/
-* [QGIS](http://www.qgis.org/en/site/), and open source Geographic Information System
+* [QGIS](http://www.qgis.org/en/site/), an open source Geographic Information System
