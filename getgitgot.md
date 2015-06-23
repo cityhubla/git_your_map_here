@@ -2,11 +2,14 @@
 
 ###What You Need
 Install [Git](http://git-scm.com/download)
+
 Create a [GitHub Account](https://github.com/)
 
 ##What is the Terminal?
 Windows --> cmd.exe
+
 Mac --> Terminal
+
 Directory === Folder
 
 ##Basic Commands for the Command Line
@@ -36,3 +39,5 @@ Changes you make can be cleanly housed within your branch and then merged to the
 ##Setting up your Terminal
 Log into GitHub via your terminal
 1. 
+2. 
+3. 
