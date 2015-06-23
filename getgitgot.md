@@ -41,6 +41,7 @@ Changes you make can be cleanly housed within your branch and then merged to the
 
 ##Setting up your Terminal
 Log into GitHub via your terminal
+
 1. `git config --global user.name "John Doe"`
 2. `git config --global user.email johndoe@example.com`
 3. z
