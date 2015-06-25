@@ -78,32 +78,33 @@ Log into GitHub via your terminal (you will only have to do this once)
 
 To set up your repo with the terminal, first you must turn a directory into a repo with `git init`. Then go to [GitHub New Repo](github.com/new) or click on the + in the upper right hand corner of github in the browser & select new repository. Match the name of your GitHub repo with the name you gave the directory/repo on your computer. Go back to the Terminal & enter `git remote add origin url.git`. Then enter `git push -u origin master`.
 
-###Commit & Push
-`git status`
-`git add filename.py`
-`git status`
-`git commit -m "adding filename"`
-`git status`
-`git push origin branchname`
+##Commit & Push
 
+Now that we have a repo to work in we can start adding files & working on them. Remember, the whole reason for working with GitHub is to have a record of changes you make to your file, so start committing right away! To demonstrate we will start by creating a README file. Create the files & place it in the working directory for your repo. (If you're a command line wiz you can do this without leaving your terminal, a challenge for those that want to learn more. Check out the Art of the Command Line for more info.)
 
+1. Check your repo for unstaged/staged/tracked/untracked files by entering `git status` in the terminal. You should see `README.md` in red under "Changes not staged for commit".
+2. To move the README into the staging area. Enter `git add README.md`. 
+3. Enter `git status`. This time, README should be in green under "Changes to be committed".
+4. Enter `git commit -m "adding README file"`. the `-m` stands for message. The string in paranthesis will be tied to the changes you made in this commit so that you and other users can look back with ease & not have to read all the code. Commits will be rejected without a message. 
+5. Enter `git status`. There should be no trace of your README file. README has been committed to your repo & now we need to push it to the branch. (We'll get to branches in a minute.)
+6. The last step to finalize the update is pushing the changes to a branch. For this step we will enter `git push origin master`.
 
-git push -u origin branchname (-u will make git remember the parameters you entered so that next time you can just type in git push.)
+You did it! You just made your first commit & your first push!
 
-###Branches
+##Branches
 
-###Tracking Changes
+##Tracking Changes
 
-###Cloning
+##Cloning
 `git clone url`
 
-###Pull
+##Pull
 
-###Merge
+##Merge
 
-###Conflicts
+##Conflicts
 
-###Forking
+##Forking
 
 ##Resources
 
