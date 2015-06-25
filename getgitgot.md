@@ -1,4 +1,5 @@
 #GET GIT GOT
+*An Introduction to the Command Line, Git & GitHub*
 
 ####What You Need
 * Install [Git](http://git-scm.com/download)
@@ -37,40 +38,45 @@ Quick Tip: A directory is just another name for a folder.
 
 For more info, check out [The Art of the Command Line](https://github.com/jlevy/the-art-of-command-line)
 
-##What is Git?
+##Git
+
 Distributed Version Control System - DVCS makes it possible to track the changes various authors make to a file or set of files & smoothes out the process of combining their files while preserving old versions. Makes for easier collaboration & effective combining of changes. 
 
 Just like with the Command Line, commands are formatted without spaces and can be followed by an option. However, all Git commands begin with the word `git`. 
 
 Why learn Git? With applications like the GitHub software, there doesn't seem to be a use for using the terminal, except the software can be problematic. Learning the basics of git is honestly faster, just as easy & prepares you to better understand what you're doing. 
 
-##What is GitHub?
-Allows you to make changes to your version without affecting the shared project. Changes you make can be cleanly housed within your branch and then merged to the master branch when ready
+##GitHub
+
+The platform. A web based repo hosting service. 
 
 Repository - a directory that is enabled to interact with Git & GitHub. Abbreviation: repo. 
 
-Within each Repo there are three trees...
+Within each repo there are three trees...
 1. Working Directory - houses the files (what you see in your folder)
 2. Index - the staging area
 3. HEAD - the last commit
 
 Commit - a snapshot of the file at a specific state. 
-Branch - a seperate work area. A version of the repository that authors can change without affecting the master branch but can later merge with the master branch to make a big change all at once. 
+Branch - a separate work area. A version of the repository that authors can change without affecting the master branch but can later merge with the master branch to make a big change all at once. 
 Staged - files ready to be committed.
 Unstaged - files that have been changed and not ready to commit
-Untracked - files that git doesn't track, ususally new.
+Untracked - files that git doesn't track, usually new.
 Deleted - a file you have removed from a folder but is waiting to be removed from the repo via git.
+Origin - references the working directory you are interacting with
+Push - The final command to commit changes made in the working directory to the branch
+Pull - a command used to update your working directory with the latest changes to the branch.
 
-##Setting up your Terminal
-Log into GitHub via your terminal
+##Setting up your Terminal with GitHub
+
+Log into GitHub via your terminal (you will only have to do this once)
 
 1. `git config --global user.name "John Doe"`
-2. `git config --global user.email johndoe@example.com`
-3. z
+2. `git config --global user.email johndoe@gmail.com`
 
-##Interacting with GitHub one-on-one
+##Repositories
 
-https://try.github.io/
+To set up your repo with the terminal, first you must turn a directory into a repo with `git init`. Then go to [GitHub New Repo](github.com/new) or click on the + in the upper right hand corner of github in the browser & select new repository. Match the name of your GitHub repo with the name you gave the directory/repo on your computer. Go back to the Terminal & enter `git remote add origin url.git`. Then enter `git push -u origin master`.
 
 ###Commit & Push
 `git status`
@@ -88,17 +94,14 @@ git push -u origin branchname (-u will make git remember the parameters you ente
 
 ###Tracking Changes
 
-##Interacting with GitHub as a team
-
 ###Cloning
+`git clone url`
 
 ###Pull
 
 ###Merge
 
 ###Conflicts
-
-##Interacting with other people's GitHub
 
 ###Forking
 
