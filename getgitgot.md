@@ -96,11 +96,17 @@ Now that we have a repo to work in we can start adding files & working on them. 
 3. Enter `git status`. This time, README should be in green under "Changes to be committed".
 4. Enter `git commit -m "adding README file"`. the `-m` stands for message. The string in paranthesis will be tied to the changes you made in this commit so that you and other users can look back with ease & not have to read all the code. Commits will be rejected without a message. 
 5. Enter `git status`. There should be no trace of your README file. README has been committed to your repo & now we need to push it to the branch. (We'll get to branches in a minute.)
-6. The last step to finalize the update is pushing the changes to a branch. For this step we will enter `git push origin master`.
+6. The last step to finalize the update is pushing the changes to a repo & branch on github. For this step we will enter `git push origin master`.
 
 You did it! You just made your first commit & your first push!
 
 ##Branches
+
+Branches are places where you can make changes, without affecting the master branch. It's important to start working this way from the get-go because when you get on bigger & bigger projects, you will want to test your changes before you make them public. You can have as many branches as you want. Let's make our first branch!
+
+1. x
+2. y
+3. z
 
 ##Tracking Changes
 
