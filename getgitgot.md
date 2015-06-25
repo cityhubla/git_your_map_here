@@ -40,7 +40,7 @@ For more info, check out [The Art of the Command Line](https://github.com/jlevy/
 
 ##Git
 
-Distributed Version Control System - DVCS makes it possible to track the changes various authors make to a file or set of files & smoothes out the process of combining their files while preserving old versions. Makes for easier collaboration & effective combining of changes. 
+Distributed Version Control System - DVCS makes it possible to track the changes various authors make to a file or set of files & smoothes out the process of combining their files while preserving old versions. Makes for easier collaboration & effective combining of changes. If you want to learn more about Version Control i recommend this [Git Tower](http://www.git-tower.com/learn/cheat-sheets/vcs-workflow) guide. 
 
 Just like with the Command Line, commands are formatted without spaces and can be followed by an option. However, all Git commands begin with the word `git`. 
 
