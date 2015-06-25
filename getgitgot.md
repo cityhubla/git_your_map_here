@@ -53,18 +53,27 @@ The platform. A web based repo hosting service.
 Repository - a directory that is enabled to interact with Git & GitHub. Abbreviation: repo. 
 
 Within each repo there are three trees...
+
 1. Working Directory - houses the files (what you see in your folder)
 2. Index - the staging area
 3. HEAD - the last commit
 
 Commit - a snapshot of the file at a specific state. 
+
 Branch - a separate work area. A version of the repository that authors can change without affecting the master branch but can later merge with the master branch to make a big change all at once. 
+
 Staged - files ready to be committed.
+
 Unstaged - files that have been changed and not ready to commit
+
 Untracked - files that git doesn't track, usually new.
+
 Deleted - a file you have removed from a folder but is waiting to be removed from the repo via git.
+
 Origin - references the working directory you are interacting with
+
 Push - The final command to commit changes made in the working directory to the branch
+
 Pull - a command used to update your working directory with the latest changes to the branch.
 
 ##Setting up your Terminal with GitHub
