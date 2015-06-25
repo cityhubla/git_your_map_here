@@ -105,18 +105,18 @@ git push -u origin branchname (-u will make git remember the parameters you ente
 ##Resources
 
 ###Walkthroughs
-[Try Git](https://try.github.io/)
-[Git Immersion](http://gitimmersion.com/)
-[Roger Dudler's Git Guide](http://rogerdudler.github.io/git-guide/)
-[Think Like a Git](http://think-like-a-git.net/)
-[A Visual Git Guide](http://marklodato.github.io/visual-git-guide/index-en.html)
-[Git Tower](http://www.git-tower.com/learn/)
-[Git & The Terminal](https://18f.gsa.gov/2015/03/03/how-to-use-github-and-the-terminal-a-guide/)
+* [Try Git](https://try.github.io/)
+* [Git Immersion](http://gitimmersion.com/)
+* [Roger Dudler's Git Guide](http://rogerdudler.github.io/git-guide/)
+* [Think Like a Git](http://think-like-a-git.net/)
+* [A Visual Git Guide](http://marklodato.github.io/visual-git-guide/index-en.html)
+* [Git Tower](http://www.git-tower.com/learn/)
+* [Git & The Terminal](https://18f.gsa.gov/2015/03/03/how-to-use-github-and-the-terminal-a-guide/)
 
 ###Self Directed
-[Pro Git](http://git-scm.com/book/en/v2)
-[First Aid Git](http://firstaidgit.io/#/)
-[Understanding GitHub](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1#awesm=~oGqRd1nOhtuidI%3F_escaped_fragment_=)
-[Git Youtube Videos](https://www.youtube.com/playlist?list=PLg7s6cbtAD165JTRsXh8ofwRw0PqUnkVH)
-[Git Dev Docs](http://devdocs.io/git/git)
-[Git Cheat Sheet](http://overapi.com/git/)
+* [Pro Git](http://git-scm.com/book/en/v2)
+* [First Aid Git](http://firstaidgit.io/#/)
+* [Understanding GitHub](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1#awesm=~oGqRd1nOhtuidI%3F_escaped_fragment_=)
+* [Git Youtube Videos](https://www.youtube.com/playlist?list=PLg7s6cbtAD165JTRsXh8ofwRw0PqUnkVH)
+* [Git Dev Docs](http://devdocs.io/git/git)
+* [Git Cheat Sheet](http://overapi.com/git/)
