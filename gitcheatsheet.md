@@ -23,29 +23,38 @@ An easy to navigate reference for all your Command Line needs!
 |-------------------------------|-----------------------------------------------|
 | `git help` (command name)		| will look up the command for you, define & give you examples of its uses 	 |
 | `git init`					| transforms directory into repository			|
+| `git config --global user.name "John Doe"`	| logging into github step one	|
+| `git config --global user.email johndoe@example.com` | logging into github step two	|
 | `git status` 					| check current state of repo (staged, unstaged, tracked, untracked, deleted files)	|
 | `git add filename.filetype`	| adds a file to the staging area				|
 | `git add --all`				| adds all files that are tracked & untracked to the staging area 	|
-| `git add -a`					| same as `git add --all`						|
+| `git add -A`					| same as `git add --all`						|
 | `git add '*.filetype'`		| adds all files of the filetype specified to the staging area (* = wildcard)	|
 | `git commit -m "message"`		| commits staged files to the repo				|
+| `git commit -a -m "message"`	| add changes from all tracked files in one line/step (doesn't add new untracked files)	|
+| `git commit --amend -m "new message"` | add file in staging to the last commit. new message will override old message. |
 | `git log`						| journal of past changes that have been committed	|
 | `git log --summary`			| provides more information in your log			|
+| `git remote -v`				| show remote repos 							|
 | `git remote add origin https://github.com/username/reponame.git`		| stages a local repo to github server. (needs a name & url from github) No commit necessary for this staging.	|
-| `git push origin master`		| push tells github which repo to put the commits in	|
-| `` 		| 	|
-| ``		| 	|
-| ``		|	|
-| ``		|	|
-| ``		|	|
-| ``		|	|
-| ``		|	|
-| ``		|	|
-| ``		|	|
-| `` 		| 	|
-| ``		| 	|
-| ``		|	|
-| ``		|	|
+| `git push origin master`		| push tells github which repo to put the commits in (in this case the master branch)	|
+| `git push -u origin master` 	| `-u` will make git remember the parameters you entered so that next time you can just type in `git push`.	|
+| `git pull origin master`		| update your working directory to match the changes in the GitHub repo	|
+| `git diff`					| check what's different from your last commit	|
+| `git diff HEAD`				| diff of your most recent commit	|
+| `git diff --staged`			| see changes you just staged	|
+| `git reset filename.filetype`	| unstage files	|
+| `git reset --soft HEAD^`		| resets last commit into staging so that you can make changes and re-commit, after HEAD add a carrot(^) to set how far back it changes ^last, ^^2 ago, ^^^3ago... |
+| `git branch`					| see branches available		|
+| `git checkout -- filename.filetype`	| change files back to how they were at the last commit by using `git checkout -- targetfile`. gets rid of all changes since the last commit for filename.filetype	|
+| `git branch newbranchname`	| creates a new branch	|
+| `git checkout newbranchname`	| switches over to the specified branch	|
+| `git checkout -b newbranchname` 		| creates and switches over to a new branch	|
+| `git merge brancname`			| will merge the changes of "branchname" into the current branch you are operating in. (Remember to do this you must be in the branch you want to add the changes to i.e. master) |
+| `git branch -d branchname` 	| deletes the branch 			|
+| `git rm filename.filetype`	| removes files from disk and stages removal of files in repo (then you commit your removal changes) 	|
+| `git rm -r foldername`		| removes folder & all the files within	|
+| `git commit -am "message"`	| auto removes files that you have deleted from the folder with your current commit	|
 | ``		|	|
 | ``		|	|
 | ``		|	|
