@@ -6,10 +6,10 @@
 
 ##What is the Terminal?
 
+Do you recall the days of DOS? When you turned on the desktop and the screen was not a high resolution lavender nebula but just black & the text was "ugh i've been slimed!" green? That was the terminal. It's still there, hiding behind your flip clock screensaver & your desktop widgets. 
 
-Windows --> cmd.exe
-
-Mac --> Terminal
+* Windows --> cmd.exe
+* Mac --> Terminal
 
 Directory === Folder
 
