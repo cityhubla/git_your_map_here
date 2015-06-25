@@ -53,7 +53,7 @@ An easy to navigate reference for all your Command Line needs!
 | `git branch newbranchname`	| creates a new branch	|
 | `git checkout newbranchname`	| switches over to the specified branch	|
 | `git checkout -b newbranchname` 		| creates and switches over to a new branch	|
-| `git checkout -b branchname branchsource/branchname	| switch over to a preexisting remote branch & create a local version of it (see `git branch -a`)		|
+| `git checkout -b branchname branchsource/branchname`	| switch over to a preexisting remote branch & create a local version of it (see `git branch -a`)		|
 | `git merge branchname`			| will merge the changes of "branchname" into the current branch you are operating in. (Remember to do this you must be in the branch you want to add the changes to i.e. master) |
 | `git branch -d branchname` 	| deletes the branch 			|
 | `git rm filename.filetype`	| removes files from disk and stages removal of files in repo (then you commit your removal changes) 	|
