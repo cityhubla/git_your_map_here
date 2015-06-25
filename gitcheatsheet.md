@@ -36,7 +36,7 @@ An easy to navigate reference for all your Command Line needs!
 | `git log`						| journal of past changes that have been committed	|
 | `git log --summary`			| provides more information in your log			|
 | `git remote -v`				| show remote repos 							|
-| `git clone url`				| Clone a repo onto your computer, have your own working directory		|
+| `git clone url.git`			| Clone a repo onto your computer, have your own working directory		|
 | `git remote add origin https://github.com/username/reponame.git`		| stages a local repo to github server. (needs a name & url from github) No commit necessary for this staging.	|
 | `git push origin master`		| push tells github which repo to put the commits in (in this case the master branch)	|
 | `git push -u origin master` 	| `-u` will make git remember the parameters you entered so that next time you can just type in `git push`.	|
